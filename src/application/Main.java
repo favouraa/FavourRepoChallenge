@@ -12,6 +12,8 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			VBox root = new VBox();
+			root.getChildren().add(new Label("Khondaker Samin Rashid's Branch"));
+			
 			root.getChildren().add(new Label("Khondaker Samin Rashid's Label"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
